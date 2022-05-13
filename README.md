@@ -25,4 +25,5 @@ Contributions are always welcome!
 
 ## Badges
 
+[![Lint Code Base](https://github.com/AngeloDotNet/MudBlazor.CustomLibrary/actions/workflows/linter.yml/badge.svg)](https://github.com/AngeloDotNet/MudBlazor.CustomLibrary/actions/workflows/linter.yml)
 [![Publish on NuGet](https://github.com/AngeloDotNet/MudBlazor.CustomLibrary/actions/workflows/publish.yml/badge.svg)](https://github.com/AngeloDotNet/MudBlazor.CustomLibrary/actions/workflows/publish.yml)
