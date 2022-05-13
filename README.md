@@ -1,1 +1,1 @@
-# MudBlazor.CustomLibrary
+# MudBlazor CustomLibrary
