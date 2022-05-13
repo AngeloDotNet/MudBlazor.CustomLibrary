@@ -1,1 +1,3 @@
-# MudBlazor.CustomLibrary
+# MudBlazor CustomLibrary
+
+Custom library of Mudblazor components
