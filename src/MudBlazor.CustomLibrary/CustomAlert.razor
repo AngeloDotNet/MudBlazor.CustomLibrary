@@ -1,0 +1,12 @@
+﻿<MudAlert Severity="@severity" Variant="@variant" Dense="@dense" NoIcon="noIcon" Square="@square" Elevation="@elevation" ContentAlignment="@contentAlignment">@text</MudAlert>
+
+@code {
+    [Parameter, Required] public string text { get; set; }
+    [Parameter, Required] public Severity severity { get; set; }
+    [Parameter, Required] public Variant variant { get; set; }
+    [Parameter] public bool dense { get; set; } = false;
+    [Parameter] public bool noIcon { get; set; } = false;
+    [Parameter] public bool square { get; set; } = false;
+    [Parameter] public int elevation { get; set; } = 1;
+    [Parameter] public HorizontalAlignment contentAlignment { get; set; } = HorizontalAlignment.Left;
+}
