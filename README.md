@@ -5,7 +5,10 @@ Custom library of Mudblazor components
 
 ## Roadmap
 
-- [x] MudAlert
+- [x] CustomAlert
+- [x] CustomAvatar
+- [ ] CustomAppBar
+- [ ] CustomBadge
 - [ ] More components
 
 
