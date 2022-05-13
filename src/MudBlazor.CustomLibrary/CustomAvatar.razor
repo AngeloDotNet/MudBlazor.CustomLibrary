@@ -1,0 +1,18 @@
+﻿@if (image is not null)
+{
+    <MudAvatar Color="@color" Variant="@variant" Size="@size" square="@square" Image="@image" Alt="@altimage">@text</MudAvatar>
+}
+else
+{
+    <MudAvatar Color="@color" Variant="@variant" Size="@size" square="@square">@text</MudAvatar>
+}
+
+@code {
+    [Parameter, Required] public string text { get; set; }
+    [Parameter, Required] public Color color { get; set; }
+    [Parameter, Required] public Variant variant { get; set; }
+    [Parameter, Required] public Size size { get; set; }
+    [Parameter] public bool square { get; set; } = false;
+    [Parameter] public string image { get; set; } = null;
+    [Parameter] public string altimage { get; set; } = null;
+}
