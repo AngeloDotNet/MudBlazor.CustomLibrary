@@ -1,0 +1,9 @@
+<MudRating SelectedValue="@selectedValue" Disabled="@disabled" ReadOnly="@readOnly" Size="@size" MaxValue="@maxValue" />
+
+@code {
+    [Parameter, Required] public int selectedValue { get; set; }
+    [Parameter] public bool disabled { get; set; }= false;
+    [Parameter] public bool readOnly { get; set; }= false;
+    [Parameter, Required] public Size size { get; set; }= Size.Small;
+    [Parameter, Required] public int maxValue { get; set; }= 5;
+}

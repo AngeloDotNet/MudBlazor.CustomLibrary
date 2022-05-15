@@ -1,0 +1,8 @@
+<MudColorPicker Label="@label" @bind-Text="colorValue" Style="@($"color: {colorValue};")" Placeholder="@placeholder" PickerVariant="@pickerVariant" />
+
+@code {
+    [Parameter, Required] public string label { get; set; }
+    [Parameter] public PickerVariant pickerVariant { get; set; } = PickerVariant.Inline;
+    private string colorValue;
+    private string placeholder = "Seleziona un colore";
+}

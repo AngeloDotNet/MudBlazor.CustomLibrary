@@ -1,0 +1,9 @@
+<MudLink Href="@link" Typo="@typo" Disabled="@disabled" Underline="@underline">@text</MudLink>
+
+@code {
+    [Parameter, Required] public string link { get; set; }
+    [Parameter, Required] public string text { get; set; }
+    [Parameter] public Typo typo { get; set; }
+    [Parameter] public bool disabled { get; set; } = false;
+    [Parameter] public Underline underline { get; set; } = Underline.None;
+}

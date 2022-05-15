@@ -1,0 +1,13 @@
+@if (separator == null)
+{
+    <MudBreadcrumbs Items="@items"></MudBreadcrumbs>
+}
+else
+{
+    <MudBreadcrumbs Items="@items" Separator="@separator"></MudBreadcrumbs>
+}
+
+@code {
+    [Parameter, Required] public List<BreadcrumbItem> items { get; set; } = new();
+    [Parameter] public string separator { get; set; }
+}
