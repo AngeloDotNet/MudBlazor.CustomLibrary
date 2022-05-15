@@ -7,8 +7,10 @@ Custom library of Mudblazor components
 
 - [x] CustomAlert
 - [x] CustomAvatar
-- [ ] CustomAppBar
-- [ ] CustomBadge
+- [x] CustomBreadcrumbs
+- [x] CustomLink
+- [x] CustomColorPicker
+- [x] CustomRating
 - [ ] More components
 
 
